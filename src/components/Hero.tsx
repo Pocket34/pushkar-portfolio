@@ -2,10 +2,10 @@ import { useEffect, useState, useRef } from 'react';
 import { ChevronDown, Play, Zap } from 'lucide-react';
 
 const TYPING_STRINGS = [
-  'AI EVOLUTION.',
-  'NEURAL FUSION.',
-  'CYBER ASCENSION.',
-  'HUMAN 2.0.',
+  'SOFTWARE ENGINEER',
+  'CSE STUDENT',
+  'SIH PARTICIPANT',
+  'FULL STACK DEVELOPER',
 ];
 
 export default function Hero() {
@@ -107,7 +107,7 @@ export default function Hero() {
                 display: 'block',
               }}
             >
-              CYBORG
+              PUSHKAR
             </span>
             <span
               style={{
@@ -116,13 +116,13 @@ export default function Hero() {
                 display: 'block',
               }}
             >
-              FUTURE
+              GUPTA
             </span>
             <span
               className="gradient-text"
               style={{ display: 'block' }}
             >
-              2050
+              CSE
             </span>
           </h1>
 
@@ -144,28 +144,39 @@ export default function Hero() {
             className="text-base md:text-lg mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed"
             style={{ color: 'rgba(224,242,254,0.6)', fontFamily: 'Rajdhani, sans-serif', fontWeight: 400 }}
           >
-            A student developer's vision of merging artificial intelligence and human creativity through immersive,
-            futuristic digital experiences. Built with React, TypeScript, and boundless imagination.
+            Computer Science Engineering student passionate about software development, web technologies, and innovative problem solving. I enjoy building modern applications and participating in hackathons to create impactful solutions.
           </p>
 
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
             <button className="btn-neon-solid flex items-center gap-2">
               <Zap size={14} />
-              EXPLORE NOW
+              <button
+  className="btn-neon-solid flex items-center gap-2"
+  onClick={() =>
+    document.querySelector('#features')
+      ?.scrollIntoView({ behavior: 'smooth' })
+  }
+></button>
             </button>
             <button className="btn-neon flex items-center gap-2">
               <Play size={14} />
-              WATCH DEMO
+            <button
+  className="btn-neon flex items-center gap-2"
+  onClick={() =>
+    document.querySelector('#contact')
+      ?.scrollIntoView({ behavior: 'smooth' })
+  }
+></button>
             </button>
           </div>
 
           {/* Stats row */}
           <div className="flex gap-8 mt-10 justify-center lg:justify-start">
             {[
-              { v: '10M+', l: 'Operations' },
-              { v: '500+', l: 'Robots' },
-              { v: '99.9%', l: 'Accuracy' },
+              { v: '2+', l: 'PROJECTS' },
+              { v: 'SIH', l: 'HACKATHON' },
+              { v: '2026', l: 'GRADUATION' },
             ].map(stat => (
               <div key={stat.l}>
                 <div

@@ -1,10 +1,10 @@
 import { Zap } from 'lucide-react';
 
 const FOOTER_LINKS = {
-  Technology: ['Neural Interface', 'Quantum AI', 'Robotics', 'Cyber Security', 'Space Tech'],
-  Resources: ['Documentation', 'Research Papers', 'Developer API', 'Open Source', 'Datasets'],
-  Community: ['Forums', 'Discord', 'Events', 'Hackathons', 'Newsletter'],
-  Legal: ['Privacy Policy', 'Terms of Service', 'Cookie Policy', 'Licenses'],
+  Skills: ['React', 'TypeScript', 'JavaScript', 'Tailwind CSS'],
+  Education: ['B.Tech CSE', '10th: 74.8%', '12th: 72.4%'],
+  Experience: ['SIH 2025', 'Web Development', 'Projects'],
+  Connect: ['GitHub', 'LinkedIn', 'Instagram', 'Email'],
 };
 
 export default function Footer() {
@@ -35,7 +35,7 @@ export default function Footer() {
                   className="font-orbitron font-black text-sm"
                   style={{ color: 'var(--neon-cyan)', textShadow: '0 0 10px var(--neon-cyan)' }}
                 >
-                  CYBORG FUTURE 2050
+                  PUSHKAR GUPTA PORTFOLIO
                 </div>
                 <div className="font-mono-tech text-xs" style={{ color: 'rgba(0,212,255,0.4)' }}>
                   BY PUSHKAR GUPTA
@@ -47,16 +47,15 @@ export default function Footer() {
               className="text-sm leading-relaxed mb-6 max-w-xs"
               style={{ color: 'rgba(224,242,254,0.45)', fontFamily: 'Rajdhani' }}
             >
-              A visionary exploration of artificial intelligence and cyberpunk aesthetics,
-              crafted by Pushkar Gupta as a portfolio project showcasing creative web development.
+              Computer Science Engineering student passionate about web development, software engineering, and innovative problem solving. Built using React, TypeScript and Tailwind CSS.
             </p>
 
             {/* Status indicators */}
             <div className="space-y-2">
               {[
-                { label: 'Systems Operational', status: 'ONLINE' },
-                { label: 'Neural Grid', status: 'ACTIVE' },
-                { label: 'Quantum Core', status: '98.7%' },
+                { label: 'Portfolio Status', status: 'ONLINE' },
+                { label: 'GitHub Projects', status: 'ACTIVE' },
+                { label: 'Learning Progress', status: '100%' },
               ].map(s => (
                 <div key={s.label} className="flex items-center gap-2">
                   <div
@@ -102,7 +101,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="font-mono-tech text-xs" style={{ color: 'rgba(224,242,254,0.3)' }}>
-            CYBORG FUTURE 2050 // PORTFOLIO PROJECT
+            PUSHKAR GUPTA // PERSONAL PORTFOLIO
           </div>
           <div className="font-mono-tech text-xs" style={{ color: 'rgba(0,212,255,0.4)' }}>
             DESIGNED & DEVELOPED BY <span style={{ color: 'var(--neon-cyan)' }}>PUSHKAR GUPTA</span> © 2026

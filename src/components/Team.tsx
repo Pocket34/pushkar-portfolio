@@ -5,7 +5,7 @@ export default function Team() {
     { icon: Instagram, label: 'Instagram', href: 'https://instagram.com/pushkaarrrr_lyf', color: '#E4405F' },
     { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/pushkar-gupta-770875282', color: '#0077B5' },
     { icon: Github, label: 'GitHub', href: 'https://github.com/Pocket34', color: '#FFFFFF' },
-    { icon: Mail, label: 'Email', href: 'mailto:contact@pushkargupta.dev', color: '#EA4335' },
+    { icon: Mail, label: 'Email', href: 'mailto:contact@pushkargupta898@gmail.com', color: '#EA4335' },
   ];
   return (
     <section id="team" className="relative py-28 overflow-hidden">
@@ -23,7 +23,7 @@ export default function Team() {
             PUSHKAR GUPTA
           </h2>
           <p className="max-w-2xl mx-auto" style={{ color: 'rgba(224,242,254,0.55)' }}>
-            Computer Science Engineering Student | Developer & Designer
+            Computer Science Engineering Student | Developer & Designer | Frontend Developer | Problem Solver
           </p>
           <div className="neon-line max-w-xs mx-auto mt-4" />
         </div>
@@ -187,7 +187,7 @@ export default function Team() {
                     >
                       PUSHKAR GUPTA
                     </h3>
-                    <div className="cyber-badge mx-auto mb-3">DEVELOPER & DESIGNER</div>
+                    <div className="cyber-badge mx-auto mb-3">CSE STUDENT</div>
                     <p className="font-mono-tech text-sm" style={{ color: 'rgba(0,212,255,0.6)' }}>
                       Computer Science Engineering Student
                     </p>
@@ -195,7 +195,7 @@ export default function Team() {
 
                   {/* Role badges */}
                   <div className="flex flex-wrap justify-center gap-2">
-                    {['FULL-STACK', 'AI DESIGN', 'CYBERPUNK'].map(role => (
+                    {['CSE', 'REACT', 'SIH 2025', 'TYPESCRIPT'].map(role => (
                       <div
                         key={role}
                         className="cyber-badge"
@@ -222,8 +222,8 @@ export default function Team() {
                 {/* Skills */}
                 <div className="space-y-3 mb-8">
                   {[
-                    { icon: <Code2 size={16} />, label: 'Full-Stack Development', desc: 'React, TypeScript, Tailwind, Vite' },
-                    { icon: <Zap size={16} />, label: 'Creative Design', desc: 'UI/UX, Cyberpunk Aesthetics, Animation' },
+                    { icon: <Code2 size={16} />, label: 'Web Development', desc: 'React, TypeScript, Tailwind CSS' },
+                    { icon: <Code2 size={16} />, label: 'Hackathon Experience' }
                   ].map((item, i) => (
                     <div key={i} className="flex gap-3 items-start">
                       <div

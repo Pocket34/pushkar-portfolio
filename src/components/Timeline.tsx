@@ -1,35 +1,43 @@
 const TIMELINE_EVENTS = [
   {
-    year: '2025',
-    title: 'Neural Interface Genesis',
-    desc: 'First commercially viable brain-computer interfaces emerge, enabling direct neural communication with digital systems. 1,000 early adopters experience seamless human-AI collaboration.',
-    tag: 'CURRENT ERA',
+    year: '2021',
+    title: '10th Completed',
+    desc: 'Successfully completed Class 10 with 74.8% marks.',
+    tag: 'ACADEMICS',
     color: '#00d4ff',
-    items: ['BCI consumer launch', 'Neural OS v1.0', '1000+ users'],
+    items: ['74.8%', 'School Education', 'Foundation'],
   },
   {
-    year: '2030',
-    title: 'The Augmented Decade',
-    desc: 'Mass adoption of exoskeletal enhancements and neural augments. Cognitive bandwidth expands 10x. The first cyborg Olympic games. Neural mesh networks span 50 cities worldwide.',
-    tag: 'NEAR FUTURE',
+    year: '2023',
+    title: '12th Completed',
+    desc: 'Successfully completed Class 12 with 72.4% marks.',
+    tag: 'ACADEMICS',
     color: '#00e5ff',
-    items: ['Exo-suits mainstream', 'Neural Olympics', '50 city mesh'],
+    items: ['72.4%', 'Higher Secondary', 'PCM'],
   },
   {
-    year: '2040',
-    title: 'Consciousness Convergence',
-    desc: 'Quantum neural processors blur the line between biological and digital thought. Collective intelligence networks emerge. The first fully synthetic consciousness passes the Turing Evolution Test.',
-    tag: 'CONVERGENCE',
+    year: '2024',
+    title: 'B.Tech CSE Started',
+    desc: 'Started Bachelor of Technology in Computer Science Engineering.',
+    tag: 'EDUCATION',
     color: '#26c6da',
-    items: ['Synthetic consciousness', 'Quantum minds', 'Hive networks'],
+    items: ['B.Tech', 'CSE', 'Engineering'],
   },
   {
-    year: '2050',
-    title: 'Cyborg Future: Realized',
-    desc: 'Humanity transcends biological limitations entirely. Post-human civilization spans solar system. Neural uploads achieve true immortality. The Cyborg Age is complete — the Techfest vision fulfilled.',
-    tag: 'FUTURE VISION',
+    year: '2025',
+    title: 'Smart India Hackathon',
+    desc: 'Participated in Smart India Hackathon (SIH 2025) and worked on innovative solutions.',
+    tag: 'ACHIEVEMENT',
     color: '#4dd0e1',
-    items: ['Post-human era', 'Solar civilization', 'Digital immortality'],
+    items: ['SIH 2025', 'Teamwork', 'Innovation'],
+  },
+  {
+    year: '2026',
+    title: 'Portfolio & Projects',
+    desc: 'Building modern web applications using React, TypeScript and Tailwind CSS.',
+    tag: 'DEVELOPMENT',
+    color: '#80deea',
+    items: ['React', 'TypeScript', 'Portfolio'],
   },
 ];
 
@@ -50,7 +58,7 @@ export default function Timeline() {
             className="font-orbitron font-black mb-4"
             style={{ fontSize: 'clamp(1.8rem, 4vw, 3.5rem)', color: 'var(--neon-blue)', textShadow: '0 0 20px rgba(0,212,255,0.4)' }}
           >
-            EVOLUTION TIMELINE
+            MY JOURNEY
           </h2>
           <div className="neon-line max-w-xs mx-auto" />
         </div>

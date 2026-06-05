@@ -14,7 +14,7 @@ export default function About() {
             className="font-orbitron font-black mb-4"
             style={{ fontSize: 'clamp(1.8rem, 4vw, 3.5rem)', color: 'var(--neon-blue)', textShadow: '0 0 20px rgba(0,212,255,0.4)' }}
           >
-            THE NEXT EVOLUTION
+            ABOUT ME
           </h2>
           <div className="neon-line max-w-xs mx-auto" />
         </div>
@@ -78,9 +78,9 @@ export default function About() {
 
               {/* Metrics */}
               {[
-                { label: 'Neural Processing Speed', value: 94 },
-                { label: 'Quantum Coherence', value: 78 },
-                { label: 'Bio-Interface Sync', value: 88 },
+                { label: 'Problem Solving', value: 90 },
+                { label: 'Web Development', value: 85 },
+                { label: 'Teamwork', value: 88 },
               ].map(m => (
                 <div key={m.label} className="mb-4">
                   <div className="flex justify-between mb-1">
@@ -108,29 +108,38 @@ export default function About() {
               className="font-orbitron font-bold"
               style={{ fontSize: 'clamp(1.2rem, 2.5vw, 2rem)', color: '#e0f2fe' }}
             >
-              Where Humanity Meets<br />
+              Hello, I'm<br />
               <span style={{ color: 'var(--neon-cyan)', textShadow: '0 0 10px var(--neon-cyan)' }}>
-                Machine Intelligence
+                Pushkar Gupta
               </span>
             </h3>
 
             <p style={{ color: 'rgba(224,242,254,0.65)', lineHeight: '1.8', fontSize: '1.05rem' }}>
-              Techfest 2050 represents the pinnacle of human achievement — a convergence point where
-              artificial neurons fire alongside biological ones, where quantum processors enhance human
-              cognition, and where the boundary between creator and creation dissolves entirely.
+              I am Pushkar Gupta, a Computer Science Engineering student passionate about software development, web development, and problem-solving. I enjoy creating modern applications and continuously learning new technologies.
             </p>
 
             <p style={{ color: 'rgba(224,242,254,0.55)', lineHeight: '1.8', fontSize: '1rem' }}>
-              We stand at the threshold of a new epoch. The Cyborg Future isn't a distant science fiction
-              concept — it's the reality unfolding in research centers and laboratories worldwide, right now.
+              I have participated in Smart India Hackathon (SIH 2025) and enjoy working on innovative projects. My goal is to build impactful software solutions and grow as a professional software engineer.
             </p>
 
             {/* Feature list */}
             <div className="space-y-4">
               {[
-                { icon: <Brain size={18} />, title: 'Neural Integration', desc: 'Direct brain-computer interfaces enabling thought-driven computation' },
-                { icon: <Cpu size={18} />, title: 'Quantum Processing', desc: 'Harnessing quantum mechanics for exponential cognitive enhancement' },
-                { icon: <Globe size={18} />, title: 'Global Connectivity', desc: 'A unified neural mesh connecting cyborgs across the planet' },
+                {
+                  icon: <Brain size={18} />,
+                  title: 'Education',
+                  desc: 'B.Tech Computer Science Engineering'
+                },
+                {
+                  icon: <Cpu size={18} />,
+                  title: 'Academic Record',
+                  desc: '10th: 74.8% | 12th: 72.4%'
+                },
+                {
+                  icon: <Globe size={18} />,
+                  title: 'Experience',
+                  desc: 'SIH 2025 Participant & Web Developer'
+                }
               ].map(f => (
                 <div key={f.title} className="flex gap-4 items-start">
                   <div

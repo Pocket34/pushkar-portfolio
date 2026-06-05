@@ -2,51 +2,51 @@ import { Brain, Shield, Cpu, Network, Atom, Rocket } from 'lucide-react';
 
 const TECHS = [
   {
-    icon: <Brain size={28} />,
-    name: 'Artificial Intelligence',
-    code: 'AI-X7',
-    desc: 'Self-evolving neural architectures that surpass human cognitive limits through recursive self-improvement cycles.',
-    stat: '10T+ ops/s',
+    icon: <Cpu size={28} />,
+    name: 'React',
+    code: 'REACT',
+    desc: 'Building modern and responsive web applications.',
+    stat: 'Frontend',
     color: '#00d4ff',
   },
   {
-    icon: <Cpu size={28} />,
-    name: 'Advanced Robotics',
-    code: 'ROB-3',
-    desc: 'Bio-mechanical constructs with synthetic muscle fibers, adaptive exoskeletons, and real-time sensor fusion.',
-    stat: '500+ Models',
+    icon: <Brain size={28} />,
+    name: 'TypeScript',
+    code: 'TS',
+    desc: 'Writing scalable and type-safe applications.',
+    stat: 'Programming',
     color: '#00fff0',
   },
   {
     icon: <Shield size={28} />,
-    name: 'Cyber Security',
-    code: 'SEC-Q',
-    desc: 'Quantum-resistant cryptography and zero-trust architectures protecting the neural grid from hostile intrusions.',
-    stat: '99.9% Uptime',
+    name: 'JavaScript',
+    code: 'JS',
+    desc: 'Core language for modern web development.',
+    stat: 'ES6+',
     color: '#00b8d4',
   },
   {
     icon: <Network size={28} />,
-    name: 'Neural Networks',
-    code: 'NN-11',
-    desc: 'Multi-layered consciousness emulation with 100 billion synthetic neurons forming emergent intelligence.',
-    stat: '100B+ Nodes',
+    name: 'HTML & CSS',
+    code: 'WEB',
+    desc: 'Creating responsive and user-friendly interfaces.',
+    stat: 'Frontend',
     color: '#00e5ff',
   },
   {
     icon: <Atom size={28} />,
-    name: 'Quantum Computing',
-    code: 'QC-5',
-    desc: 'Leveraging quantum superposition and entanglement to process complex problems instantaneously.',
-    stat: '4096 Qubits',
+    name: 'Git & GitHub',
+    code: 'GIT',
+    desc: 'Version control and project collaboration.',
+    stat: 'Development',
     color: '#26c6da',
   },
   {
     icon: <Rocket size={28} />,
-    name: 'Space Technology',
-    code: 'SPC-8',
-    desc: 'Deep space cybernetics enabling human consciousness transfer across planetary and interstellar distances.',
-    stat: '4.2 LY Range',
+    name: 'Tailwind CSS',
+    code: 'UI',
+    desc: 'Modern utility-first CSS framework.',
+    stat: 'Styling',
     color: '#4dd0e1',
   },
 ];
@@ -74,10 +74,10 @@ export default function Technologies() {
             className="font-orbitron font-black mb-4"
             style={{ fontSize: 'clamp(1.8rem, 4vw, 3.5rem)', color: 'var(--neon-blue)', textShadow: '0 0 20px rgba(0,212,255,0.4)' }}
           >
-            CORE SYSTEMS
+            TECH STACK
           </h2>
           <p className="max-w-2xl mx-auto" style={{ color: 'rgba(224,242,254,0.55)', fontSize: '1.05rem' }}>
-            Six pillars of technological supremacy powering the cyborg revolution of 2050
+            Technologies and tools I use for web development and software projects.
           </p>
           <div className="neon-line max-w-xs mx-auto mt-4" />
         </div>
