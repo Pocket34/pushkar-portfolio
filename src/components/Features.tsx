@@ -3,51 +3,51 @@ import { Eye, Zap, Lock, Radio, Waves, Fingerprint, ChevronRight, Layers } from 
 const FEATURES = [
   {
     icon: <Eye size={24} />,
-    title: 'Quantum Vision',
-    desc: 'Synthetic retinas with 16K resolution, thermal imaging, X-ray penetration, and real-time AR overlay. See beyond human limits.',
-    badge: 'OPTICS',
+    title: 'Frontend Development',
+    desc: 'Building responsive and modern user interfaces using React, HTML, CSS and JavaScript.',
+    badge: 'FRONTEND',
   },
   {
     icon: <Zap size={24} />,
-    title: 'Neural Boost',
-    desc: 'Cognitive enhancement modules amplifying processing speed 1000x. Direct access to world knowledge through neural APIs.',
-    badge: 'COGNITION',
+    title: 'Problem Solving',
+    desc: 'Strong analytical thinking and problem-solving skills developed through projects and coding practice.',
+    badge: 'LOGIC',
   },
   {
     icon: <Lock size={24} />,
-    title: 'Biometric Shield',
-    desc: 'Multi-layer quantum encryption of your neural signature. Unhackable identity verification using brainwave patterns.',
-    badge: 'SECURITY',
+    title: 'Web Development',
+    desc: 'Creating complete web applications with modern tools, frameworks and best practices.',
+    badge: 'WEB',
   },
   {
     icon: <Radio size={24} />,
-    title: 'Hive Network',
-    desc: 'Seamless neural mesh connectivity enabling real-time thought sharing across global cyborg collectives and AI clusters.',
-    badge: 'NETWORK',
+    title: 'Team Collaboration',
+    desc: 'Experience working with teams during hackathons and collaborative development projects.',
+    badge: 'TEAM',
   },
   {
     icon: <Waves size={24} />,
-    title: 'Emotion Matrix',
-    desc: 'Synthetic limbic system providing precise emotional regulation, empathy amplification, and psychological optimization.',
-    badge: 'NEURAL',
+    title: 'Continuous Learning',
+    desc: 'Always exploring new technologies and improving technical knowledge.',
+    badge: 'LEARNING',
   },
   {
     icon: <Fingerprint size={24} />,
-    title: 'DNA Forge',
-    desc: 'Real-time genetic expression control via nanobots, enabling adaptive physical transformation and disease elimination.',
-    badge: 'BIO-TECH',
+    title: 'Creative Thinking',
+    desc: 'Developing innovative solutions and transforming ideas into practical projects.',
+    badge: 'CREATIVE',
   },
   {
     icon: <Layers size={24} />,
-    title: 'Memory Palace',
-    desc: 'Unlimited photographic memory with quantum storage. Recall any moment in perfect clarity. Upload and share experiences.',
-    badge: 'MEMORY',
+    title: 'Project Building',
+    desc: 'Hands-on experience creating portfolio projects and modern web applications.',
+    badge: 'PROJECTS',
   },
   {
     icon: <ChevronRight size={24} />,
-    title: 'Temporal Sync',
-    desc: 'Neural clock synchronization achieving microsecond-level reaction times. Subjective time dilation on demand.',
-    badge: 'TIME',
+    title: 'Future Goals',
+    desc: 'Aspiring software engineer focused on full-stack development and emerging technologies.',
+    badge: 'GOALS',
   },
 ];
 
@@ -63,15 +63,15 @@ export default function Features() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-20 reveal">
-          <div className="cyber-badge inline-block mb-4">05 // FEATURES</div>
+          <div className="cyber-badge inline-block mb-4">05 // SKILLS</div>
           <h2
             className="font-orbitron font-black mb-4"
             style={{ fontSize: 'clamp(1.8rem, 4vw, 3.5rem)', color: 'var(--neon-blue)', textShadow: '0 0 20px rgba(0,212,255,0.4)' }}
           >
-            CYBORG CAPABILITIES
+            SKILLS & STRENGTHS
           </h2>
           <p className="max-w-2xl mx-auto" style={{ color: 'rgba(224,242,254,0.55)', fontSize: '1.05rem' }}>
-            Eight transformative technologies that redefine what it means to be human
+            My core skills, strengths and areas of continuous learning
           </p>
           <div className="neon-line max-w-xs mx-auto mt-4" />
         </div>

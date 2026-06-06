@@ -2,14 +2,14 @@ import { Target, Lightbulb, Zap, BookOpen } from 'lucide-react';
 
 const TECH_STACK = [
   'React 18', 'TypeScript', 'Tailwind CSS', 'Vite',
-  'HTML5 Canvas', 'SVG Graphics', 'WebGL', 'Neural Networks'
+  'HTML5 Canvas', 'SVG Graphics', 'WebGL', 'GitHub'
 ];
 
 const JOURNEY_STEPS = [
   {
-    phase: 'Conception',
+    phase: 'Started Learning',
     time: '2025',
-    desc: 'Vision of merging cyberpunk aesthetics with cutting-edge AI concepts for Techfest.',
+    desc: 'Started exploring programming and web development fundamentals.',
     color: '#00d4ff',
   },
   {
@@ -46,10 +46,10 @@ export default function CreatorProfile() {
             className="font-orbitron font-black mb-4"
             style={{ fontSize: 'clamp(1.8rem, 4vw, 3.5rem)', color: 'var(--neon-blue)', textShadow: '0 0 20px rgba(0,212,255,0.4)' }}
           >
-            PUSHKAR'S VISION
+            MY JOURNEY
           </h2>
           <p className="max-w-2xl mx-auto" style={{ color: 'rgba(224,242,254,0.55)', fontSize: '1.05rem' }}>
-            A developer crafting the future of human-machine symbiosis through immersive digital experiences and cutting-edge web technologies.
+            Computer Science Engineering student passionate about web development, software engineering, and building impactful digital solutions.
           </p>
           <div className="neon-line max-w-xs mx-auto mt-4" />
         </div>
@@ -74,10 +74,11 @@ export default function CreatorProfile() {
 
             <ul className="space-y-3">
               {[
-                'Create an immersive cyberpunk experience showcasing AI and robotics',
-                'Demonstrate mastery of modern web technologies and design principles',
-                'Push boundaries of interactive design with real-time particle systems',
-                'Inspire visitors with a vision of technology\'s future possibilities',
+                'Build responsive and modern web applications',
+                'Improve problem-solving and development skills',
+                'Create impactful software projects',
+                'Grow as a professional software engineer',
+               
               ].map((goal, i) => (
                 <li key={i} className="flex gap-3">
                   <div
@@ -104,7 +105,7 @@ export default function CreatorProfile() {
                 <Lightbulb size={20} />
               </div>
               <h3 className="font-orbitron font-bold text-lg" style={{ color: '#e0f2fe' }}>
-                Future AI Vision
+                Career Vision
               </h3>
             </div>
 
@@ -112,15 +113,14 @@ export default function CreatorProfile() {
               className="text-sm leading-relaxed mb-4"
               style={{ color: 'rgba(224,242,254,0.65)', fontFamily: 'Rajdhani' }}
             >
-              The convergence of artificial intelligence and human creativity will define the next decade. By building intuitive,
-              beautiful interfaces powered by intelligent systems, we can make advanced technology accessible to everyone.
+             My goal is to become a skilled software engineer and contribute to innovative projects that solve real-world problems. I enjoy learning new technologies and continuously improving my development skills.
             </p>
 
             <p
               className="text-sm leading-relaxed"
               style={{ color: 'rgba(224,242,254,0.5)', fontFamily: 'Rajdhani' }}
             >
-              This project explores that intersection—where cyberpunk aesthetics meet real technological possibility.
+              This portfolio represents my learning journey, projects, achievements, and technical growth as a developer.
             </p>
           </div>
         </div>

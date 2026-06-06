@@ -3,10 +3,10 @@ import { Activity, Wifi, Battery, Cpu, Eye, Brain } from 'lucide-react';
 const WAVEFORM_HEIGHTS = [4, 8, 12, 20, 16, 20, 14, 10, 18, 22, 16, 12, 8, 14, 20, 16, 10, 14, 18, 12, 8, 16, 20, 14];
 
 const SYSTEM_STATS = [
-  { label: 'Neural Core', value: 94, color: '#00d4ff' },
-  { label: 'Quantum CPU', value: 78, color: '#00e5ff' },
-  { label: 'Bio Sync', value: 88, color: '#26c6da' },
-  { label: 'Net Link', value: 99, color: '#4dd0e1' },
+  { label: 'Problem Solving', value: 90, color: '#00d4ff' },
+  { label: 'Web Development', value: 85, color: '#00e5ff' },
+  { label: 'Teamwork', value: 88, color: '#26c6da' },
+  { label: 'Learning', value: 95, color: '#4dd0e1' },
 ];
 
 export default function Dashboard() {
@@ -23,11 +23,11 @@ export default function Dashboard() {
             className="font-orbitron font-black mb-4"
             style={{ fontSize: 'clamp(1.8rem, 4vw, 3.5rem)', color: 'var(--neon-blue)', textShadow: '0 0 20px rgba(0,212,255,0.4)' }}
           >
-            NEURAL DASHBOARD
+            MY DASHBOARD
           </h2>
           <p className="max-w-2xl mx-auto" style={{ color: 'rgba(224,242,254,0.55)' }}>
-            Real-time cyborg system monitoring and control interface
-          </p>
+            Overview of my skills, learning journey and development progress
+            </p>
           <div className="neon-line max-w-xs mx-auto mt-4" />
         </div>
 
@@ -51,14 +51,14 @@ export default function Dashboard() {
                   style={{ background: 'var(--neon-cyan)', boxShadow: '0 0 8px var(--neon-cyan)' }}
                 />
                 <span className="font-orbitron text-xs" style={{ color: 'var(--neon-cyan)' }}>
-                  CYBORG OS v2050.1
+                  PUSHKAR PORTFOLIO v1.0
                 </span>
               </div>
               <div className="flex items-center gap-4">
                 <Wifi size={14} style={{ color: 'rgba(0,212,255,0.6)' }} />
                 <Battery size={14} style={{ color: 'rgba(0,212,255,0.6)' }} />
                 <div className="font-mono-tech text-xs" style={{ color: 'rgba(0,212,255,0.5)' }}>
-                  [UNIT-7749]
+                  [CSE-STUDENT]
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@ export default function Dashboard() {
                     <div className="flex items-center gap-2">
                       <Activity size={14} style={{ color: 'var(--neon-cyan)' }} />
                       <span className="font-orbitron text-xs" style={{ color: 'rgba(224,242,254,0.7)' }}>
-                        NEURAL ACTIVITY
+                        CODING ACTIVITY
                       </span>
                     </div>
                     <div className="font-mono-tech text-xs" style={{ color: 'var(--neon-cyan)' }}>LIVE</div>
@@ -132,10 +132,10 @@ export default function Dashboard() {
                   style={{ background: 'rgba(0,10,20,0.9)', border: '1px solid rgba(0,212,255,0.1)', fontFamily: 'Share Tech Mono' }}
                 >
                   {[
-                    { time: '20:41:03', msg: 'Neural link established — bandwidth 24.7 Gbps', ok: true },
-                    { time: '20:41:07', msg: 'Quantum encryption layer active — AES-2048', ok: true },
-                    { time: '20:41:12', msg: 'Bio-sync calibration complete — delta 0.003ms', ok: true },
-                    { time: '20:41:19', msg: 'Hive network ping — 8 nodes online', ok: true },
+                     { time:'20:41:03', msg:'Completed portfolio website project', ok:true },
+                     { time:'20:41:07', msg:'Participated in Smart India Hackathon 2025', ok:true },
+                     { time:'20:41:12', msg:'Learning React and TypeScript', ok:true },
+                     { time:'20:41:19', msg:'Building modern web applications', ok:true }
                   ].map((log, i) => (
                     <div key={i} className="flex gap-3 mb-1">
                       <span className="text-xs" style={{ color: 'rgba(0,212,255,0.4)', flexShrink: 0 }}>[{log.time}]</span>
@@ -154,7 +154,7 @@ export default function Dashboard() {
                   className="rounded-xl p-4"
                   style={{ background: 'rgba(0,15,30,0.8)', border: '1px solid rgba(0,212,255,0.12)' }}
                 >
-                  <div className="font-orbitron text-xs mb-3" style={{ color: 'rgba(224,242,254,0.7)' }}>SENSOR ARRAY</div>
+                  <div className="font-orbitron text-xs mb-3" style={{ color: 'rgba(224,242,254,0.7)' }}>PROFILE STATUS</div>
                   <div className="relative w-32 h-32 mx-auto">
                     {[1, 2, 3].map(i => (
                       <div
@@ -205,11 +205,11 @@ export default function Dashboard() {
                   className="rounded-xl p-4 space-y-3"
                   style={{ background: 'rgba(0,15,30,0.8)', border: '1px solid rgba(0,212,255,0.12)' }}
                 >
-                  <div className="font-orbitron text-xs mb-2" style={{ color: 'rgba(224,242,254,0.7)' }}>MODULES</div>
+                  <div className="font-orbitron text-xs mb-2" style={{ color: 'rgba(224,242,254,0.7)' }}>SKILLS</div>
                   {[
-                    { label: 'Neural Core', icon: <Brain size={12} />, status: 'ONLINE' },
-                    { label: 'Visual Array', icon: <Eye size={12} />, status: 'ACTIVE' },
-                    { label: 'Proc Unit', icon: <Cpu size={12} />, status: 'ONLINE' },
+                    { label:'Frontend', icon:<Brain size={12} />, status:'ACTIVE' },
+                    { label:'React JS', icon:<Eye size={12} />, status:'LEARNING' },
+                    { label:'Problem Solving', icon:<Cpu size={12} />, status:'ACTIVE' }
                   ].map(m => (
                     <div key={m.label} className="flex items-center justify-between">
                       <div className="flex items-center gap-2" style={{ color: 'rgba(0,212,255,0.7)' }}>

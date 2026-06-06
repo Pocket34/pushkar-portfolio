@@ -70,9 +70,9 @@ export default function About() {
                   ))}
 
                   {/* Labels */}
-                  <text x="30" y="106" fill="rgba(0,212,255,0.5)" fontSize="8" fontFamily="Share Tech Mono">CPU</text>
-                  <text x="245" y="106" fill="rgba(0,255,240,0.5)" fontSize="8" fontFamily="Share Tech Mono">GPU</text>
-                  <text x="126" y="108" fill="rgba(0,255,240,0.8)" fontSize="9" fontFamily="Share Tech Mono" fontWeight="bold">NEURAL</text>
+                  <text x="30" y="106" fill="rgba(0,212,255,0.5)" fontSize="8" fontFamily="Share Tech Mono">HTML</text>
+                  <text x="245" y="106" fill="rgba(0,255,240,0.5)" fontSize="8" fontFamily="Share Tech Mono">CSS</text>
+                  <text x="126" y="108" fill="rgba(0,255,240,0.8)" fontSize="9" fontFamily="Share Tech Mono" fontWeight="bold">CSE</text>
                 </svg>
               </div>
 

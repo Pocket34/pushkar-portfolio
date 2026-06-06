@@ -5,12 +5,12 @@ interface Props {
 }
 
 const BOOT_LINES = [
-  'INITIALIZING NEURAL CORE...',
-  'LOADING QUANTUM PROCESSORS...',
-  'CALIBRATING BIOMETRIC SENSORS...',
-  'ESTABLISHING SECURE UPLINK...',
-  'DECRYPTING CYBORG PROTOCOLS...',
-  'SYSTEM ONLINE. WELCOME TO 2050.',
+  'LOADING PORTFOLIO...',
+  'INITIALIZING COMPONENTS...',
+  'LOADING PROJECTS...',
+  'FETCHING SKILLS DATA...',
+  'PREPARING USER INTERFACE...',
+  'WELCOME TO PUSHKAR GUPTA PORTFOLIO.',
 ];
 
 export default function LoadingScreen({ onComplete }: Props) {
@@ -90,7 +90,7 @@ export default function LoadingScreen({ onComplete }: Props) {
       {/* Logo */}
       <div className="mb-6 text-center">
         <div className="font-orbitron text-xs tracking-widest mb-1" style={{ color: 'rgba(0,212,255,0.5)' }}>
-          CYBORG FUTURE 2050
+          PERSONAL PORTFOLIO
         </div>
         <h1
           className="font-orbitron text-2xl md:text-3xl font-black tracking-widest"
@@ -117,7 +117,7 @@ export default function LoadingScreen({ onComplete }: Props) {
       {/* Progress bar */}
       <div className="w-full max-w-md mx-auto px-6">
         <div className="flex justify-between mb-1">
-          <span className="font-mono-tech text-xs" style={{ color: 'rgba(0,212,255,0.5)' }}>BOOT SEQUENCE</span>
+          <span className="font-mono-tech text-xs" style={{ color: 'rgba(0,212,255,0.5)' }}>LOADING</span>
           <span className="font-mono-tech text-xs" style={{ color: 'var(--neon-cyan)' }}>{Math.round(progress)}%</span>
         </div>
         <div

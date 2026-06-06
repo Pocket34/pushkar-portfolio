@@ -4,8 +4,8 @@ import { ChevronDown, Play, Zap } from 'lucide-react';
 const TYPING_STRINGS = [
   'SOFTWARE ENGINEER',
   'CSE STUDENT',
-  'SIH PARTICIPANT',
-  'FULL STACK DEVELOPER',
+  'SIH 2025 PARTICIPANT',
+  'FULL STACK DEVELOPER'
 ];
 
 export default function Hero() {
@@ -148,34 +148,46 @@ export default function Hero() {
           </p>
 
           {/* Buttons */}
-          <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-            <button className="btn-neon-solid flex items-center gap-2">
-              <Zap size={14} />
-              <button
-  className="btn-neon-solid flex items-center gap-2"
-  onClick={() =>
-    document.querySelector('#features')
-      ?.scrollIntoView({ behavior: 'smooth' })
-  }
-></button>
-            </button>
-            <button className="btn-neon flex items-center gap-2">
-              <Play size={14} />
-            <button
-  className="btn-neon flex items-center gap-2"
-  onClick={() =>
-    document.querySelector('#contact')
-      ?.scrollIntoView({ behavior: 'smooth' })
-  }
-></button>
-            </button>
-          </div>
+         <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
+  <button
+    className="btn-neon-solid flex items-center gap-2"
+    onClick={() =>
+      document.querySelector('#features')
+        ?.scrollIntoView({ behavior: 'smooth' })
+    }
+  >
+    <Zap size={14} />
+    View Projects
+  </button>
+
+  <button
+    className="btn-neon flex items-center gap-2"
+    onClick={() =>
+      document.querySelector('#contact')
+        ?.scrollIntoView({ behavior: 'smooth' })
+    }
+  >
+    <Play size={14} />
+    Contact Me
+  </button>
+</div>
+<a
+  href="https://github.com/Pocket34/pushkar-newportfolio"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn-neon"
+>
+  GitHub
+</a>
+<button className="btn-neon">
+  Resume Coming Soon
+</button>
 
           {/* Stats row */}
           <div className="flex gap-8 mt-10 justify-center lg:justify-start">
             {[
               { v: '2+', l: 'PROJECTS' },
-              { v: 'SIH', l: 'HACKATHON' },
+              { v: 'SIH 2025', l: 'PARTICIPANT' },
               { v: '2026', l: 'GRADUATION' },
             ].map(stat => (
               <div key={stat.l}>

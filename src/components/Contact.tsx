@@ -59,7 +59,7 @@ export default function Contact() {
 
             {[
               { icon: <MapPin size={16} />, label: 'Location', value: 'India' },
-              { icon: <Mail size={16} />, label: 'Neural Mail', value: 'contact@pushkargupta.dev' },
+              { icon: <Mail size={16} />, label: 'Email', value: 'contact@pushkargupta.dev' },
               { icon: <Phone size={16} />, label: 'Comms Link', value: '+91 XXXXXXXXXX' },
             ].map(item => (
               <div key={item.label} className="glass-card rounded-xl p-4 flex items-start gap-4">
@@ -152,7 +152,7 @@ export default function Contact() {
                     TRANSMISSION RECEIVED
                   </div>
                   <div className="font-mono-tech text-xs text-center" style={{ color: 'rgba(0,212,255,0.5)' }}>
-                    Neural uplink established. Response incoming.
+                    email recieved established. Response incoming.
                   </div>
                 </div>
               ) : (
@@ -173,7 +173,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <label className="font-mono-tech text-xs block mb-1.5" style={{ color: 'rgba(0,212,255,0.6)' }}>
-                        NEURAL ADDRESS
+                        CONTACT EMAIL
                       </label>
                       <input
                         type="email"
